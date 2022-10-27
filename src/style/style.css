@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'poke';
+    src: url('./fonts/Pokemon\ Hollow.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: 'poke';
+}
+.pokeAll{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.pokeDiv{
+    box-shadow: 5px 10px 10px rgb(199, 199, 199);
+    width: 14rem;
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.pokeDiv img{
+    width: 8rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+form input,
+form button {
+    margin: 0.5rem;
+}
+
+form button {
+    padding: 10px 5px;
+    border-radius: 30px;
+    border: none;
+    box-shadow:5px 10px 10px rgb(199, 199, 199);
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+form input{
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.cardDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.cardDiv img {
+    width: 15rem;
+}
+.cardDiv ul{
+    list-style: none;
+    line-height: 280%;
+}
