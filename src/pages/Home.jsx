@@ -24,7 +24,7 @@ export const Home = () => {
             <Search  search={search} setSearch={setSearch}/>
             <div className="pokeAll">
                 {pokemons.filter(p => p.name.toLowerCase().includes(search.toLowerCase()))
-                .map((p, index) => <Pokemon key={index} url={p.url}/>)}
+                .map((s, index) => <Pokemon key={index} url={s.url}/>)}
             </div>
         </>
     )
